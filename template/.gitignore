@@ -1,0 +1,3 @@
+# Repository checkouts have their own Git history.
+repos/*
+!repos/README.md

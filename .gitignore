@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+
+# Never commit infrastructure state or local secrets from test workspaces.
+*.tfstate
+*.tfstate.*
+.terraform/
+.env
+.env.*
